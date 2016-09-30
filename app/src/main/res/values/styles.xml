@@ -13,7 +13,6 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@drawable/as_splash</item>
-        <item name="android:colorBackground">@android:color/white</item>
     </style>
 
     <style name="Splash" parent="SplashBase"></style>
