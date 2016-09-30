@@ -8,12 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Splash" parent="AppTheme">
-        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    <style name="SplashBase" parent="AppTheme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@drawable/as_splash</item>
         <item name="android:colorBackground">@android:color/white</item>
     </style>
+
+    <style name="Splash" parent="SplashBase"></style>
 </resources>
